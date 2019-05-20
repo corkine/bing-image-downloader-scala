@@ -1,0 +1,9 @@
+version: 0.0.1
+vmCheckCommand: vmrun list
+vmCheckContains: 1
+vmRunCommand: vmrun xxx
+vmRunContains: xxxxx
+ifCheckFailedThenLazyRun: true
+needRemovePathList:
+  - a/aaa.lok
+  - b/bbb.lok

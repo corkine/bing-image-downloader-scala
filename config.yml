@@ -1,0 +1,10 @@
+version: 0.0.1
+vmCheckCommand: cmd /k dir
+vmCheckContains: ggggggggggggggg
+vmRunCommand: vmrun start xxx nogui
+vmRunContains: xxxxx
+ifCheckFailedThenLazyRun: true
+retry: 2
+needRemovePathList:
+  - a/aaa.lok
+  - b/bbb.lok
